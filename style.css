@@ -100,3 +100,10 @@
     justify-content: center;
     justify-content: space-envenly;
 }
+
+.questionholders {
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    font-family:Snell Roundhand, cursive;
+}
