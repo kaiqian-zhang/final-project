@@ -10,6 +10,10 @@
     font-family:Snell Roundhand, cursive;
 }
 
+a {
+    text-decoration: none;
+}
+
 .column1 {
     display: flex;
     flex-direction: column-reverse;
@@ -18,7 +22,6 @@
     background-color: rgb(255, 125, 120);
     border-radius: 10px;
     border-color: rgb(255, 125, 120);
-
 }
 
 .column1:hover {
@@ -101,9 +104,12 @@
     justify-content: space-envenly;
 }
 
-.questionholders {
+.questionCategory {
     display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    font-family:Snell Roundhand, cursive;
+    justify-content: space-evenly;
+    gap: 20px;
+    font-family: snell roundhan, cursive;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 10px;
 }
