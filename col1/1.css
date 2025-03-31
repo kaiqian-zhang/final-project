@@ -1,0 +1,18 @@
+.M {
+    font-family:Snell Roundhand, cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.Qs {
+    font-family:Snell Roundhand, cursive;
+    display: flex;
+    justify-content: center;
+}
+
+.answer {
+    font-family:Snell Roundhand, cursive;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
