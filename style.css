@@ -113,3 +113,7 @@ a {
     text-align: center;
     margin-bottom: 10px;
 }
+
+body {
+    background-color: #99bbff;
+}
