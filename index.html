@@ -120,6 +120,10 @@
 </div>
     <script src="script.js"></script>
     <script>
+        let points = localStorage.getItem("points");
+        points = points ? parseInt(points) : 0;
+
+        
         const  buttons = document.querySelectorAll('.question-btn');
     
         buttons.forEach(button => {
