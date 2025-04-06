@@ -117,3 +117,26 @@ a {
 body {
     background-color: #99bbff;
 }
+
+#res-btn {
+    margin: 10px;
+    font-size: 15px;
+    background-color: rgb(255, 48, 48);
+    border-radius: 10px;
+    border-color: rgb(255, 48, 48);
+}
+
+#res-btn:hover {
+    background-color: darkred;
+    border-color: darkred;
+    filter: brightness(0.6);
+}
+
+#scoreboard {
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    font-family:Snell Roundhand, cursive;
+}

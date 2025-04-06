@@ -1,20 +1,23 @@
 let points = localStorage.getItem("points");
 points = points ? parseInt(points) : 0;
 
-let element = document.getElementsByClassName("correct");
-
 
 function wrong() {
-        points = points - 100;
-        console.log(points);
-
-    localStorage.setItem("points", points);
-}
-
+        points -= 200;
+        localStorage.setItem("points", points);
+    
+        localStorage.setItem("answered_col2_2", "true");
+    
+        alert("Wrong!");
+        window.location.href = "../index.html";
+    }
 
 function correct() {
-        points = points + 100;
-        console.log(points);
-
-    localStorage.setItem("points", points);
-}
+        points += 200;
+        localStorage.setItem("points", points);
+    
+        localStorage.setItem("answered_col2_2", "true");
+    
+        alert("Correct!");
+        window.location.href = "../index.html";
+    }
