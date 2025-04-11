@@ -6,7 +6,7 @@ function wrong() {
         points -= 300;
         localStorage.setItem("points", points);
     
-        localStorage.setItem("answered_col=6_3", "true");
+        localStorage.setItem("answered_col=5_3", "true");
     
         alert("Wrong!");
         window.location.href = "../index.html";
@@ -16,7 +16,7 @@ function correct() {
         points += 300;
         localStorage.setItem("points", points);
     
-        localStorage.setItem("answered_col6_3", "true");
+        localStorage.setItem("answered_col5_3", "true");
     
         alert("Correct!");
         window.location.href = "../index.html";

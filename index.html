@@ -84,19 +84,19 @@
         <a href="col5/1.html">
             <button class="column5" class="question-btn">100</button>
         </a>
-        <a href="col5/1.html">
+        <a href="col5/2.html">
             <button class="column5" class="question-btn">200</button>
         </a>
-        <a href="col5/1.html">
+        <a href="col5/3.html">
             <button class="column5" class="question-btn">300</button>
         </a>
-        <a href="col5/1.html">
+        <a href="col5/4.html">
             <button class="column5" class="question-btn">400</button>
         </a>
-        <a href="col5/1.html">
+        <a href="col5/5.html">
             <button class="column5" class="question-btn">500</button>
         </a>
-        <a href="col5/1.html">
+        <a href="col5/6.html">
             <button class="column5" class="question-btn">600</button>
         </a>
     </div>
@@ -124,20 +124,7 @@
 </div>
     <script src="script.js"></script>
     <script>
-        let points = localStorage.getItem("points");
-        points = points ? parseInt(points) : 0;
-
-        
-        const  buttons = document.querySelectorAll('.question-btn');
-    
-        buttons.forEach(button => {
-            GamepadButton.addEventListener('click', function () {
-                this.disabled = true;
-                this.style.backgroundColor = 'gray';
-                this.style.color = 'white';
-                this.style.cursor = 'not-allowed';
-            });
-        });
+      
         
     </script>
 </body>
