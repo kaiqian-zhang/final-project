@@ -140,3 +140,13 @@ body {
 #text {
     font-family:Snell Roundhand, cursive;
 }
+
+.finalQ {
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    background-color: #004d99;
+    border-radius: 10px;
+    border-color: #004d99;
+    font-family: snell roundhan, cursive;
+}

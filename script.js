@@ -3,7 +3,7 @@ window.onload = function () {
     points = points ? parseInt(points) : 0;
     document.getElementById("score").textContent = points;
 
-    const folders = ["col1", "col2", "col4", "col5", "col6"];
+    const folders = ["col1", "col2", "col4", "col5", "col6", "finalQ"];
 
     folders.forEach(folder => {
         for (let i = 1; i <= 6; i++) {

@@ -3,20 +3,20 @@ points = points ? parseInt(points) : 0;
 
 
 function wrong() {
-        points -= 600;
+        points -= 300;
         localStorage.setItem("points", points);
     
-        localStorage.setItem("answered_col=6_6", "true");
+        localStorage.setItem("answered_col6_3", "true");
     
         alert("Wrong!");
         window.location.href = "../index.html";
     }
 
 function correct() {
-        points += 600;
+        points += 300;
         localStorage.setItem("points", points);
     
-        localStorage.setItem("answered_col6_6", "true");
+        localStorage.setItem("answered_col6_3", "true");
     
         alert("Correct!");
         window.location.href = "../index.html";
